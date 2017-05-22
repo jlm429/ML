@@ -12,7 +12,7 @@
 
 ### Dimensionality Reduction
 
-#### Principle Component Analysis (<a href="https://github.com/jlm429/UnsupervisedLearning/blob/master/src/iris_pca.py">src/iris_pca.py</a>, src/adult_pca.py) 
+#### Principle Component Analysis (<a href="https://github.com/jlm429/UnsupervisedLearning/blob/master/src/iris_pca.py">src/iris_pca.py</a>, <a href="https://github.com/jlm429/UnsupervisedLearning/blob/master/src/adult_pca.py">src/adult_pca.py</a>) 
 
 > Coding Resource: <a href="http://scikit-learn.org/stable/"> http://scikit-learn.org/</a>.  
 
@@ -31,11 +31,11 @@
 ![Component Diagram](https://github.com/jlm429/UnsupervisedLearning/blob/master/images/ADULTPCARANKED.PNG)
 
 
-#### Independent Component Analysis (iris_ica_output.py, adult_ica.py)
+#### Independent Component Analysis (<a href="https://github.com/jlm429/UnsupervisedLearning/blob/master/src/iris_ica_output.py>iris_ica_output.py</a>, <a href="https://github.com/jlm429/UnsupervisedLearning/blob/master/src/adult_ica.py>src/adult_ica.py</a>)
 
 >The scikit learn ICA algorithm uses kurtosis values to determine attribute independence.  Listed below are the kurtosis for each attribute and graphs for attribute values with high kurtosis after applying the ICA transformation.   
 
-### Neural Network with Dimensionality Reduction
+### Neural Network with Dimensionality Reduction (<a href="https://github.com/jlm429/UnsupervisedLearning/blob/master/src/adult_nn.py">src/adult_nn.py</a>)
 
 >I re-ran reduced data sets through a neural network and was able to achieve results similar to the original data set with much faster running times.  I also used a decision tree classifier to verify results and was again able to accurately classify the data after applying ICA, PCA, or RPA using only two of the original 14 attributes.  Listed below are accuracy scores and running times for the neural network using ICA, PCA, RPA and Variance Threshold feature selection algorithms on the adult data set.   
 
