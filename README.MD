@@ -12,7 +12,7 @@
 
 ### Dimensionality Reduction
 
-#### Principle Component Analysis (iris_pca.py, adult_pca.py) 
+#### Principle Component Analysis (src/iris_pca.py, src/adult_pca.py) 
 
 > Coding Resource: <a href="http://scikit-learn.org/stable/"> http://scikit-learn.org/</a>.  
 
@@ -20,15 +20,15 @@
 
 #### Iris Data Set PCA 3D Data Plot
 
-![Component Diagram](https://github.com/jlm429/MDPs/blob/master/images/PolicyIterationGri.PNG)
+![Component Diagram](https://github.com/jlm429/UnsupervisedLearning/blob/master/images/IRISPCAplot.png)
 
 #### Adult Data Set PCA Distribution of Eigenvalues (Y=Value, X=Attribute)
 
-![Component Diagram](https://github.com/jlm429/MDPs/blob/master/images/PolicyIterationGrd.PNG)
+![Component Diagram](https://github.com/jlm429/UnsupervisedLearning/blob/master/images/ADULTPCAEIGENVALUES.png)
 
 #### Adult Data Set PCA Ranked attributes:
 
-![Component Diagram](https://github.com/jlm429/MDPs/blob/master/images/PolicyIterationGid.PNG)
+![Component Diagram](https://github.com/jlm429/UnsupervisedLearning/blob/master/images/ADULTPCARANKED.PNG)
 
 ####Independent Component Analysis (iris_ica_output.py, adult_ica.py)
 
@@ -38,6 +38,6 @@
 
 >I re-ran reduced data sets through a neural network and was able to achieve results similar to the original data set with much faster running times.  I also used a decision tree classifier to verify results and was again able to accurately classify the data after applying ICA, PCA, or RPA using only two of the original 14 attributes.  Listed below are accuracy scores and running times for the neural network using ICA, PCA, RPA and Variance Threshold feature selection algorithms on the adult data set.   
 
-![Component Diagram](https://github.com/jlm429/MDPs/blob/master/images/PolicyIterationGid.PNG)
+![Component Diagram](https://github.com/jlm429/UnsupervisedLearning/blob/master/images/NNCharts.PNG)
 
 
