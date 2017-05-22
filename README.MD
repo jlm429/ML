@@ -30,7 +30,8 @@
 
 ![Component Diagram](https://github.com/jlm429/UnsupervisedLearning/blob/master/images/ADULTPCARANKED.PNG)
 
-####Independent Component Analysis (iris_ica_output.py, adult_ica.py)
+
+#### Independent Component Analysis (iris_ica_output.py, adult_ica.py)
 
 >The scikit learn ICA algorithm uses kurtosis values to determine attribute independence.  Listed below are the kurtosis for each attribute and graphs for attribute values with high kurtosis after applying the ICA transformation.   
 
