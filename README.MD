@@ -1,9 +1,13 @@
 ### Unsupervised Learning & Dimensionality Reduction 
 
 > Data Sets Taken From UCI 
+
 > <a href="https://archive.ics.uci.edu/ml/datasets/Iris">Iris Data Set</a>
+
 > Target Classes: Iris-setosa,  Iris-virginica,  Iris-versicolor. One class is linearly separable from the other 2; the latter are not linearly separable from each other. 
+
 > <a href="https://archive.ics.uci.edu/ml/datasets/Adult">Adult Data Set</a>. 
+
 > Target Classes: <=50k, >50k.  The adult data set is more robust with 15 attributes and 45,000 total data items.   The prediction task is to determine whether a person would make over $50,000 a year using the 14 attributes listed.  
 
 ### Dimensionality Reduction
@@ -32,7 +36,7 @@
 
 ### Neural Network with Dimensionality Reduction
 
->I re-ran the reduced data sets through a neural network and was able to achieve results similar to the original data set with much faster running times.  I also used a decision tree classifier to verify results and was again able to accurately classify the data after applying ICA, PCA, or RPA using only two of the original 14 attributes.  Listed below are accuracy scores and running times for the neural network using ICA, PCA, RPA and Variance Threshold feature selection algorithms on the adult data set.   
+>I re-ran reduced data sets through a neural network and was able to achieve results similar to the original data set with much faster running times.  I also used a decision tree classifier to verify results and was again able to accurately classify the data after applying ICA, PCA, or RPA using only two of the original 14 attributes.  Listed below are accuracy scores and running times for the neural network using ICA, PCA, RPA and Variance Threshold feature selection algorithms on the adult data set.   
 
 ![Component Diagram](https://github.com/jlm429/MDPs/blob/master/images/PolicyIterationGid.PNG)
 
