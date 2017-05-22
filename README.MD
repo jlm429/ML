@@ -12,7 +12,7 @@
 
 ### Dimensionality Reduction
 
-#### Principle Component Analysis (src/iris_pca.py, src/adult_pca.py) 
+#### Principle Component Analysis (<a href="https://github.com/jlm429/UnsupervisedLearning/blob/master/src/iris_pca.py">src/iris_pca.py</a>, src/adult_pca.py) 
 
 > Coding Resource: <a href="http://scikit-learn.org/stable/"> http://scikit-learn.org/</a>.  
 
