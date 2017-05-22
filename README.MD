@@ -16,7 +16,7 @@
 
 > Coding Resource: <a href="http://scikit-learn.org/stable/"> http://scikit-learn.org/</a>.  
 
-> Scikit-learn provided some nice visuals to help determine which attributes gave the most variance.  After applying a linear transformation to the iris data set, I plotted the data points which made it easier to pin down a separating line for the originally non-linearly separable Iris-virginica and Iris-versicolor classes (iris\pca\iris_pca.py).  For the Adult Data Set, PCA ranked attribute importance similar to the decision tree classifier using a GINI index.  From the plot of eigenvalues on the adult data set, the values drop off after the first few attributes indicating that only a few attributes will be needed.   Listed below are the PCA ranked attributes, and distribution of eigenvectors for both data sets and the 3D data plot for the iris data set.  
+> Scikit-learn provided some nice visuals to help determine which attributes gave the most variance.  After applying a linear transformation to the iris data set, I plotted the data points which made it easier to pin down a separating line for the Iris-virginica and Iris-versicolor classes (iris\pca\iris_pca.py).  For the Adult Data Set, PCA ranked attribute importance similar to the decision tree classifier using a GINI index.  From the plot of eigenvalues on the adult data set, the values drop off after the first few attributes indicating only the first few attributes will be needed.   Listed below are the PCA ranked attributes, and distribution of eigenvectors for both data sets and the 3D data plot for the iris data set.  
 
 #### Iris Data Set PCA 3D Data Plot
 
