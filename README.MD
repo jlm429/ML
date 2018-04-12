@@ -20,10 +20,6 @@
 
 ![Component Diagram](https://github.com/jlm429/UnsupervisedLearning/blob/master/images/IRISPCAplot.png)
 
-#### Adult Data Set PCA Distribution of Eigenvalues (Y=Value, X=Attribute)
-
-![Component Diagram](https://github.com/jlm429/UnsupervisedLearning/blob/master/images/ADULTPCAEIGENVALUES.png)
-
 #### Adult Data Set PCA Ranked attributes:
 
 ![Component Diagram](https://github.com/jlm429/UnsupervisedLearning/blob/master/images/ADULTPCARANKED.PNG)
