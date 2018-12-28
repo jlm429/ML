@@ -20,10 +20,6 @@
 
 ![Component Diagram](https://github.com/jlm429/UnsupervisedLearning/blob/master/images/IRISPCAplot.png)
 
-#### Adult Data Set PCA Ranked attributes:
-
-![Component Diagram](https://github.com/jlm429/UnsupervisedLearning/blob/master/images/ADULTPCARANKED.PNG)
-
 ### Neural Network with Dimensionality Reduction (<a href="https://github.com/jlm429/UnsupervisedLearning/blob/master/src/adult_nn.py">src/misc/adult_nn.py</a>)
 
 >Running data sets through a neural network after dimensionality reduction gives similar results with faster running times.   
