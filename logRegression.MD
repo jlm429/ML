@@ -753,6 +753,9 @@ get35LCMeans=function(){
 #        col=c("blue", "green"), lty=c(1,1), lwd=4,cex=.5)
 ```
 
+
+![lr curve](https://github.com/jlm429/ML/blob/master/images/lrcurve.PNG)
+
 Comments on the observed learning curves.
 
 The 0/1 learning curve shows underfitting at sample size 127 (.01 of training data) but seems to perform relatively consistent at above 90% accuracy for both testing and training for at all sample sizes.  
