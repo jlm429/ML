@@ -114,14 +114,14 @@ Q. Formula for the loss function used in Logistic Regression (expression to be m
 <!-- $L(\theta) =  \underset{\theta}{\operatorname{argmin}}  \frac{1}{N}  \sum_{n=1}^{N} ln (1 + e ^{ y_{n}  \theta^{T} x_{n}  })$ -->
 ![Loss Function](https://github.com/jlm429/ML/blob/master/images/lossFunction2.png)
 
-Where $x_{n}$ = sample n from input matrix x and $\theta^{T}_{i} x_{n} = \sum_{i=1}^{d} x_{i}\theta_{i}$ (d=number of attributes + 1 for offset)
+<!-- Where $x_{n}$ = sample n from input matrix x and $\theta^{T}_{i} x_{n} = \sum_{i=1}^{d} x_{i}\theta_{i}$ (d=number of attributes + 1 for offset) -->
 
 Q. Derivation of the gradient of the loss function with respect to model parameters: 
 
 <!-- $-(\frac{1}{N}  \sum_{n=1}^{N} \frac{y_{n}x_{n}}{1 + e ^{ y_{n}  \theta^{T}_{i} x_{n}  }})$ -->
 ![Gradient](https://github.com/jlm429/ML/blob/master/images/gradient.png)
 
-Where $x_{n}$ = sample n from input matrix x and $\theta^{T}_{i} x_{n} = \sum_{i=1}^{d} x_{i}\theta_{i}$ (d=number of attributes + offset)
+<!-- Where $x_{n}$ = sample n from input matrix x and $\theta^{T}_{i} x_{n} = \sum_{i=1}^{d} x_{i}\theta_{i}$ (d=number of attributes + offset) -->
 
 
 Q. Expression of the Stochastic Gradient Descent (SGD) update rule based on loss function that using a single sample x(i), y(i) at a time: 
@@ -130,7 +130,7 @@ Q. Expression of the Stochastic Gradient Descent (SGD) update rule based on loss
 
 <!-- $\theta_{i+1}=\theta_{i}+\alpha (\frac{1}{N}  \sum_{n=1}^{N} \frac{y_{n}x_{n}}{1 + e ^{ y_{n}  \theta^{T}_{i} x_{n}  }})$ -->
 
-Where $x_{n}$ = sample n from input matrix x and $\theta^{T}_{i} x_{n} = \sum_{i=1}^{d} x_{i}\theta_{i}$ (d=number of attributes + offset)
+<!-- Where $x_{n}$ = sample n from input matrix x and $\theta^{T}_{i} x_{n} = \sum_{i=1}^{d} x_{i}\theta_{i}$ (d=number of attributes + offset) -->
 
 
 Q. Pseudocode for training a model using Logistic Regression and SGD.
