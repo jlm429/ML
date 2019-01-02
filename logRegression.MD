@@ -93,7 +93,10 @@ image5Label=test_label_3_5[,1700]
 image5Title=paste("Actual Label=", as.numeric(image5Label))
 title(main = image5Title, font.main = 4)
 
-
+![0 correct](https://github.com/jlm429/ML/blob/master/images/0correct.png)
+![1 correct](https://github.com/jlm429/ML/blob/master/images/1correct.png)
+![3 correct](https://github.com/jlm429/ML/blob/master/images/3correct.png)
+![5 correct](https://github.com/jlm429/ML/blob/master/images/5correct.png)
 
 ```
 
