@@ -6,8 +6,6 @@ output:
   RMD (R Markdown) 
 ---
 
-#TODO: Fix MD lc graph rendering
-
 #1. Data Preprocessing 
 
 ```{r}
