@@ -103,7 +103,7 @@ title(main = image5Title, font.main = 4)
 
 # Formula for the loss function used in Logistic Regression (expression to be minimized).
 
-From the tutorial in udacity notes - "Fun with Logistic Regression"
+From the tutorial - "Fun with Logistic Regression"
 http://nbviewer.jupyter.org/gist/vietjtnguyen/6655020
 
 Q. Formula for the loss function used in Logistic Regression (expression to be minimized):
