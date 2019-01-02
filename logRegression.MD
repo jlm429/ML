@@ -109,7 +109,7 @@ http://nbviewer.jupyter.org/gist/vietjtnguyen/6655020
 Q. Formula for the loss function used in Logistic Regression (expression to be minimized):
 
 <!-- $L(\theta) =  \underset{\theta}{\operatorname{argmin}}  \frac{1}{N}  \sum_{n=1}^{N} ln (1 + e ^{ y_{n}  \theta^{T} x_{n}  })$ -->
-![Loss Function](https://github.com/jlm429/ML/blob/master/images/lossFunction.PNG)
+![Loss Function](https://github.com/jlm429/ML/blob/master/images/lossFunction.png)
 
 Where $x_{n}$ = sample n from input matrix x and $\theta^{T}_{i} x_{n} = \sum_{i=1}^{d} x_{i}\theta_{i}$ (d=number of attributes + 1 for offset)
 
