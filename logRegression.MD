@@ -1,8 +1,7 @@
 ---
-title: 'HW3: Logistic Regression'
+title: 'Logistic Regression'
 subtitle: |-
-  JMANSFIELD6 CSE6242 - Data and Visual Analytics - Fall 2017
-  Due: November 5th, 2017, 11:59PM UTC-12 on T-Square
+  Data and Visual Analytics - Calculus based logistic regression
 output:
   word_document: default
 ---
@@ -97,28 +96,28 @@ title(main = image5Title, font.main = 4)
 ```
 
 
-2. Theory [20 points]
+2. Theory 
 
 
-# Write down the formula for the loss function used in Logistic Regression, the expression that you want to minimize.
+# Formula for the loss function used in Logistic Regression (expression to be minimized).
 
 From the tutorial in udacity notes - "Fun with Logistic Regression"
 http://nbviewer.jupyter.org/gist/vietjtnguyen/6655020
 
-Q. Write down the formula for the loss function used in Logistic Regression, the expression that you want to minimize:
+Q. Formula for the loss function used in Logistic Regression (expression to be minimized):
 
 $L(\theta) =  \underset{\theta}{\operatorname{argmin}}  \frac{1}{N}  \sum_{n=1}^{N} ln (1 + e ^{ y_{n}  \theta^{T} x_{n}  })$ 
 
 Where $x_{n}$ = sample n from input matrix x and $\theta^{T}_{i} x_{n} = \sum_{i=1}^{d} x_{i}\theta_{i}$ (d=number of attributes + 1 for offset)
 
-Q. Derive the gradient of the loss function with respect to model parameters: 
+Q. Derivation of the gradient of the loss function with respect to model parameters: 
 
 $-(\frac{1}{N}  \sum_{n=1}^{N} \frac{y_{n}x_{n}}{1 + e ^{ y_{n}  \theta^{T}_{i} x_{n}  }})$
 
 Where $x_{n}$ = sample n from input matrix x and $\theta^{T}_{i} x_{n} = \sum_{i=1}^{d} x_{i}\theta_{i}$ (d=number of attributes + offset)
 
 
-Q. Based on this gradient, express the Stochastic Gradient Descent (SGD) update rule that uses a single sample x(i), y(i) at a time: 
+Q. Expression of the Stochastic Gradient Descent (SGD) update rule based on loss function that using a single sample x(i), y(i) at a time: 
 
 
 $\theta_{i+1}=\theta_{i}+\alpha (\frac{1}{N}  \sum_{n=1}^{N} \frac{y_{n}x_{n}}{1 + e ^{ y_{n}  \theta^{T}_{i} x_{n}  }})$
@@ -126,7 +125,7 @@ $\theta_{i+1}=\theta_{i}+\alpha (\frac{1}{N}  \sum_{n=1}^{N} \frac{y_{n}x_{n}}{1
 Where $x_{n}$ = sample n from input matrix x and $\theta^{T}_{i} x_{n} = \sum_{i=1}^{d} x_{i}\theta_{i}$ (d=number of attributes + offset)
 
 
-Q. Write pseudocode for training a model using Logistic Regression and SGD.
+Q. Pseudocode for training a model using Logistic Regression and SGD.
 
 A. 
 for i in iterations{
@@ -137,7 +136,7 @@ for i in iterations{
   theta=theta+alpha*(gradientDescent/N)
 }
 
-Q. Estimate the number of operations per epoch of SGD, where an epoch is one complete iteration through all the training samples. Express this is Big-O notation, in terms of the number of samples n, and the dimensionality of each sample d.  
+Q. Estimate of the number of operations per epoch of SGD, where an epoch is one complete iteration through all the training samples (Big-O notation, in terms of the number of samples n, and the dimensionality of each sample d).  
 
 
 Assuming mult/add/div are constant time and operations are vectorized by sample - the overall runtime of SGD would be 
@@ -617,22 +616,7 @@ get35alphaMeans=function(){
 
 ```
 
-Q. Did you observe any difference in the accuracies for 0/1 and 3/5 models? If so, explain why do you think the difference might be.
-
-A. Accuracies for 0/1 are much higher than 3/5 possibly because of the similarity between 3 and 5 when hand written.  
-
-Q. Report the best test accuracy you could achieve for 0/1, and the best test accuracy for 3/5. These may be at different learning rate settings.
-
-A. 0/1: 90% accuracy @ alpha=.01, (appears to overfit beyond .01) 
-   3/5: 58% accuracy @ alpha=.07,  (appears to underfit from .01 -.05/overfit beyond .07) 
-
-Q. This assignment deals with binary classification. Explain what you would do if you had more than two classes to classify using Logistic Regression (e.g. with a combined 0/1/3/5 dataset).
-
-A. You could try to convert to a binary classification or in the case of 0/1/3/5 you could classify twice, first between {0/1} and {3/5} then between 0 and 1, and 3 and 5.  
-
-#Note to grader - plots and mean alpha training has been commented out due to length of time required to build.  
-
-#5 Learning Curves
+#Learning Curves
 
 ```{r}
 
@@ -762,10 +746,8 @@ get35LCMeans=function(){
 #        col=c("blue", "green"), lty=c(1,1), lwd=4,cex=.5)
 ```
 
-Your comments on the observed learning curves.
+Comments on the observed learning curves.
 
 The 0/1 learning curve shows underfitting at sample size 127 (.01 of training data) but seems to perform relatively consistent at above 90% accuracy for both testing and training for at all sample sizes.  
 
 The 3/5 learning curve shows underfitting at sample size 116 (.01 of training data) then shows some overfitting at 347 (.03) samples and beyond.  Sample size 231 (.02) appears to be the peak for both testing and training predictions.   
-
-#Note to grader - plots and mean alpha training has been commented out due to length of time required to build. 
