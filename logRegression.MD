@@ -758,6 +758,4 @@ get35LCMeans=function(){
 
 Comments on the observed learning curves.
 
-The 0/1 learning curve shows underfitting at sample size 127 (.01 of training data) but seems to perform relatively consistent at above 90% accuracy for both testing and training for at all sample sizes.  
-
-The 3/5 learning curve shows underfitting at sample size 116 (.01 of training data) then shows some overfitting at 347 (.03) samples and beyond.  Sample size 231 (.02) appears to be the peak for both testing and training predictions.   
+The 0/1 learning curve shows underfitting at sample size 127 (.01 of training data) but performs relatively consistent at above 90% accuracy for both testing and training for at all sample sizes.  
