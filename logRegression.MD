@@ -8,7 +8,7 @@ output:
 
 #TODO: Fix MD lc graph rendering
 
-#1. Data Preprocessing [20 points]
+#1. Data Preprocessing 
 
 ```{r}
 #import
@@ -758,4 +758,4 @@ get35LCMeans=function(){
 
 Comments on the observed learning curves.
 
-The 0/1 learning curve shows underfitting at sample size 127 (.01 of training data) but performs relatively consistent at above 90% accuracy for both testing and training for at all sample sizes.  
+The 0/1 learning curve shows underfitting at sample size 127 (.01 of training data) but performs relatively consistent at above 90% accuracy for both testing and training for all sample sizes.  
