@@ -5,15 +5,7 @@
 
 ### Dimensionality Reduction 
 
-> Data Sets Taken From UCI 
-
-> <a href="https://archive.ics.uci.edu/ml/datasets/Iris">Iris Data Set</a>
-
-> Target Classes: Iris-setosa,  Iris-virginica,  Iris-versicolor. One class is linearly separable from the other 2; the latter are not linearly separable from each other. 
-
-> <a href="https://archive.ics.uci.edu/ml/datasets/Adult">Adult Data Set</a>. 
-
-> Target Classes: <=50k, >50k.  The prediction task is to determine whether a person would make over $50,000 a year using the 14 attributes listed.  
+> <a href="https://github.com/jlm429/ML/blob/master/dr.MD">dr.MD</a>
 
 #### Principle Component Analysis (<a href="https://github.com/jlm429/UnsupervisedLearning/blob/master/src/iris_pca.py">src/misc/iris_pca.py</a>, <a href="https://github.com/jlm429/UnsupervisedLearning/blob/master/src/adult_pca.py">src/misc/adult_pca.py</a>) 
 
