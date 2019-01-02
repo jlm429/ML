@@ -1,6 +1,6 @@
 ### Calculus based logistic regression
 
-> <a href="https://github.com/jlm429/ML/blob/master/logRegression.MD">/logRegression.MD</a>
+> <a href="https://github.com/jlm429/ML/blob/master/logRegression.MD">logRegression.MD</a>
 
 
 ### Dimensionality Reduction 
