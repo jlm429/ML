@@ -6,7 +6,7 @@ output:
   RMD (R Markdown) 
 ---
 
-#TODO: Fix MD latex rendering
+#TODO: Fix MD latex & lc graph rendering
 
 #1. Data Preprocessing [20 points]
 
