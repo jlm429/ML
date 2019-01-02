@@ -95,10 +95,10 @@ title(main = image5Title, font.main = 4)
 
 ```
 
-![0 correct](https://github.com/jlm429/ML/blob/master/images/0correct.png)
-![1 correct](https://github.com/jlm429/ML/blob/master/images/1correct.png)
-![3 correct](https://github.com/jlm429/ML/blob/master/images/3correct.png)
-![5 correct](https://github.com/jlm429/ML/blob/master/images/5correct.png)
+![0 correct](https://github.com/jlm429/ML/blob/master/images/0correct.PNG)
+![1 correct](https://github.com/jlm429/ML/blob/master/images/1correct.PNG)
+![3 correct](https://github.com/jlm429/ML/blob/master/images/3correct.PNG)
+![5 correct](https://github.com/jlm429/ML/blob/master/images/5correct.PNG)
 
 2. Theory 
 
