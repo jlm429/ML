@@ -116,15 +116,16 @@ Where $x_{n}$ = sample n from input matrix x and $\theta^{T}_{i} x_{n} = \sum_{i
 Q. Derivation of the gradient of the loss function with respect to model parameters: 
 
 <!-- $-(\frac{1}{N}  \sum_{n=1}^{N} \frac{y_{n}x_{n}}{1 + e ^{ y_{n}  \theta^{T}_{i} x_{n}  }})$ -->
-![Loss Function](https://github.com/jlm429/ML/blob/master/images/gradient.png)
+![Gradient](https://github.com/jlm429/ML/blob/master/images/gradient.png)
 
 Where $x_{n}$ = sample n from input matrix x and $\theta^{T}_{i} x_{n} = \sum_{i=1}^{d} x_{i}\theta_{i}$ (d=number of attributes + offset)
 
 
 Q. Expression of the Stochastic Gradient Descent (SGD) update rule based on loss function that using a single sample x(i), y(i) at a time: 
+![SGD](https://github.com/jlm429/ML/blob/master/images/SGD.PNG)
 
 
-$\theta_{i+1}=\theta_{i}+\alpha (\frac{1}{N}  \sum_{n=1}^{N} \frac{y_{n}x_{n}}{1 + e ^{ y_{n}  \theta^{T}_{i} x_{n}  }})$
+<!-- $\theta_{i+1}=\theta_{i}+\alpha (\frac{1}{N}  \sum_{n=1}^{N} \frac{y_{n}x_{n}}{1 + e ^{ y_{n}  \theta^{T}_{i} x_{n}  }})$ -->
 
 Where $x_{n}$ = sample n from input matrix x and $\theta^{T}_{i} x_{n} = \sum_{i=1}^{d} x_{i}\theta_{i}$ (d=number of attributes + offset)
 
