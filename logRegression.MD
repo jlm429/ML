@@ -13,9 +13,9 @@ output:
 ```{r}
 #import
 library(readr)
-mnist_train <- read_csv("~/johns documents/ga tech/ms6242/hw3/mnist/mnist/mnist_train.csv", col_names = FALSE)
+mnist_train <- read_csv("~/mnist/mnist/mnist_train.csv", col_names = FALSE)
 
-mnist_test <- read_csv("~/johns documents/ga tech/ms6242/hw3/mnist/mnist/mnist_test.csv", col_names = FALSE)
+mnist_test <- read_csv("~/mnist/mnist/mnist_test.csv", col_names = FALSE)
 ```
 
 ```{r}
