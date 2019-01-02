@@ -3,7 +3,7 @@ title: 'Logistic Regression'
 subtitle: |-
   Data and Visual Analytics - Calculus based logistic regression
 output:
-  word_document: default
+  RMD (R Markdown)
 ---
 
 #1. Data Preprocessing [20 points]
