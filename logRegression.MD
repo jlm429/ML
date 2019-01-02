@@ -272,9 +272,9 @@ predict = function(theta, data){
 
 #3 Continued
 
-Report: Implementation notes, e.g. initialization method, convergence criteria, modifications you have made to the input data, algorithm, etc. Visualization of 2 correct and 2 incorrect predictions each for 0/1 and 3/5 training sets (a total of 8 samples). For each sample, show the image, true label and predicted label.
+Implementation notes, e.g. initialization method, convergence criteria, modifications made to the input data, algorithm, etc. Visualization of 2 correct and 2 incorrect predictions each for 0/1 and 3/5 training sets (a total of 8 samples). For each sample, show the image, true label and predicted label.
 
-I initialized theta to all 0's and appended an offset term to both data and theta.  Convergence is based on iterations of SGD and labels are mapped to values of 0 or 1.  Training is based on a random subset of samples from each training set.  
+Theta initialized to all 0's and offset term appended to both data and theta.  Convergence is based on iterations of SGD and labels are mapped to values of 0 or 1.  Training is based on a random subset of samples from each training set.  
 
 #Visualize 2 correct/2 incorrect predictions from 0/1 & 3/5
 ```{r}
