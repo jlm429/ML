@@ -1,12 +1,4 @@
----
-title: 'Data and Visual Analytics'
-subtitle: |-
-  
-output:
-  RMD (R Markdown) 
----
-
-> Professional Education by State (Midwest Data Set)
+> Professional Education by State (R - Midwest Data Set)
 
 ```{r}
 
@@ -72,9 +64,14 @@ ggplot(midwest, aes(log10(percollege), log10(perchsd))) +
      facet_wrap(~state, nrow = 1)
 		
 ```
+> Illinois Percent Professional by County  
 
 ![Heatmap](https://github.com/jlm429/ML/blob/master/images/dvaILpercprofmap.png)  
 
+> Midwest Ordered Median Percent Professional  
+
 ![Box Plot](https://github.com/jlm429/ML/blob/master/images/dvaBoxPlot.png)   
 
+> Midwest Alpha Blending Percent Professional
+  
 ![Alpha Blending](https://github.com/jlm429/ML/blob/master/images/dvaPercprofHist.png)   
