@@ -6,7 +6,7 @@ output:
   RMD (R Markdown) 
 ---
 
-#1. Professional Education by State (Midwest Data Set)
+> Professional Education by State (Midwest Data Set)
 
 ```{r}
 
@@ -73,4 +73,8 @@ ggplot(midwest, aes(log10(percollege), log10(perchsd))) +
 		
 ```
 
-Images...
+![Heatmap](https://github.com/jlm429/ML/blob/master/images/dvaILpercprofmap.png)  
+
+![Box Plot](https://github.com/jlm429/ML/blob/master/images/dvaBoxPlot.png)   
+
+![Alpha Blending](https://github.com/jlm429/ML/blob/master/images/dvaPercprofHist.png)   
