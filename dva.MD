@@ -76,7 +76,6 @@ Visualizing the distribution of percent professional by state.
   
 ![Alpha Blending](https://github.com/jlm429/ML/blob/master/images/dvaPercprofHist.png)   
 
-> Midwest Binned Heapmap
-
-Reinforces a correlation between high school degrees and college shows a linear trend between the two.  
+> ## Midwest Binned Heapmap  
+> Reinforces a correlation between high school degrees and college shows a linear trend between the two.  
 ![Alpha Blending](https://github.com/jlm429/ML/blob/master/images/dvaHeatmapBins.png)   
