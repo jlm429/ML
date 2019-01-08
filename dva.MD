@@ -84,4 +84,4 @@ ggplot(midwest, aes(log10(percollege), log10(perchsd))) +
 > ## GGPairs   
 > The three way relationship between perchsd, percollege, and state visualized using ggpairs.  
   
-![Alpha Blending](https://github.com/jlm429/ML/blob/master/images/dvaHeatmapBins.png)  
+![Alpha Blending](https://github.com/jlm429/ML/blob/master/images/dvaggpairs.png)  
