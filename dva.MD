@@ -1,4 +1,4 @@
-> Professional Education by State (R - Midwest Data Set)
+> ## Professional Education by State (R - Midwest Data Set)
 
 ```{r}
 
@@ -64,18 +64,24 @@ ggplot(midwest, aes(log10(percollege), log10(perchsd))) +
      facet_wrap(~state, nrow = 1)
 		
 ```
-> Illinois Percent Professional by County Heatmap
+> ## Illinois Percent Professional by County Heatmap
 
 ![Heatmap](https://github.com/jlm429/ML/blob/master/images/dvaILpercprofmap.png)  
 
-> Midwest Ordered Median Percent Professional  
-Visualizing the distribution of percent professional by state. 
+> ## Midwest Ordered Median Percent Professional  
+> Visualizing the distribution of percent professional by state. 
 ![Box Plot](https://github.com/jlm429/ML/blob/master/images/dvaBoxPlot.png)   
 
-> Midwest Alpha Blending Percent Professional
+> ## Midwest Alpha Blending Percent Professional
   
 ![Alpha Blending](https://github.com/jlm429/ML/blob/master/images/dvaPercprofHist.png)   
 
 > ## Midwest Binned Heapmap  
 > Reinforces a correlation between high school degrees and college shows a linear trend between the two.  
+  
 ![Alpha Blending](https://github.com/jlm429/ML/blob/master/images/dvaHeatmapBins.png)   
+
+> ## GGPairs   
+> The three way relationship between perchsd, percollege, and state visualized using ggpairs.  
+  
+![Alpha Blending](https://github.com/jlm429/ML/blob/master/images/dvaHeatmapBins.png)  
