@@ -72,11 +72,11 @@ ggplot(midwest, aes(log10(percollege), log10(perchsd))) +
 > Visualizing the distribution of percent professional by state. 
 ![Box Plot](https://github.com/jlm429/ML/blob/master/images/dvaBoxPlot.png)   
 
-> ## Midwest Alpha Blending Percent Professional
+> ## Alpha Blending Percent Professional
   
 ![Alpha Blending](https://github.com/jlm429/ML/blob/master/images/dvaPercprofHist.png)   
 
-> ## Midwest Binned Heapmap  
+> ## Binned Heatmap  
 > Reinforces a correlation between high school degrees and college shows a linear trend between the two.  
   
 ![Alpha Blending](https://github.com/jlm429/ML/blob/master/images/dvaHeatmapBins.png)   
