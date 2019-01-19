@@ -8,7 +8,7 @@ output:
 
 #1. Data Preprocessing 
 
-```{r}
+```R
 #import
 library(readr)
 mnist_train <- read_csv("~/mnist/mnist/mnist_train.csv", col_names = FALSE)
@@ -16,7 +16,7 @@ mnist_train <- read_csv("~/mnist/mnist/mnist_train.csv", col_names = FALSE)
 mnist_test <- read_csv("~/mnist/mnist/mnist_test.csv", col_names = FALSE)
 ```
 
-```{r}
+```R
 #partition
 
 test_0_1=mnist_test[,!(unlist(mnist_test[785,]))==3]
