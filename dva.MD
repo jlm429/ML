@@ -1,6 +1,6 @@
 > ## Professional Education by State (R - Midwest Data Set)
 
-```{r}
+```R
 
 library(dplyr)
 library(plyr)
