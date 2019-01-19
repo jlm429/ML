@@ -38,7 +38,7 @@ print(dim(test_3_5))
 print(dim(train_3_5))
 ```
 
-```{r}
+```R
 
 #sep class labels
 test_label_0_1=test_0_1[785, ]
@@ -144,7 +144,7 @@ Iterations*n samples = O(n) for each iteration.
 
 #3 Implementation 
 
-```{r}
+```R
 #SGD
 SGD = function(data, labels, theta, alpha){
   
@@ -275,7 +275,7 @@ Implementation notes, e.g. initialization method, convergence criteria, modifica
 Theta initialized to all 0's and offset term appended to both data and theta.  Convergence is based on iterations of SGD and labels are mapped to values of 0 or 1.  Training is based on a random subset of samples from each training set.  
 
 #Visualize 2 correct/2 incorrect predictions from 0/1 & 3/5
-```{r}
+```R
 
 #return 
 getIndexOfAccuratePredictions = function(labels, labels_pred){
@@ -422,7 +422,7 @@ title(main = incorrect2Title_35, font.main = 4)
 
 #4. Modeling
 
-```{r}
+```R
 
 accuracy = function(labels, labels_pred){
   labels=convertLabels(labels)
@@ -600,7 +600,7 @@ get35alphaMeans=function(){
 
 #plot mean for 01/35 alpha value range
 
-```{r}
+```R
 
 #mean01DF=get01alphaMeans()
 #mean35DF=get35alphaMeans()
@@ -623,7 +623,7 @@ get35alphaMeans=function(){
 
 #Learning Curves
 
-```{r}
+```R
 
 #model with 10 different sample sizes
 
