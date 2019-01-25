@@ -65,7 +65,7 @@ ggplot(midwest, aes(log10(percollege), log10(perchsd))) +
 		
 ```
 > ## Illinois Percent Professional by County Heatmap
-> Generated using midwest census data
+> Generated using midwest census data.
 
 ![Heatmap](https://github.com/jlm429/ML/blob/master/images/dvaILpercprofmap.png)  
 
